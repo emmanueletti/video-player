@@ -1,3 +1,5 @@
+// Pro-tip: instead of polluting global scope with all the cached DOM elements
+// can store them inside an object, maybe called "cachedDOMElements"
 const video = document.querySelector('video');
 const progressRange = document.querySelector('.progress-range');
 const progressBar = document.querySelector('.progress-bar');
